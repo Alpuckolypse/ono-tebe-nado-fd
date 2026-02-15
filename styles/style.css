@@ -1,1 +1,55 @@
-/* место для вашего кода */
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    /* padding: */
+}
+
+/* меню */
+/* лого */
+/* адрес */
+.address {}
+
+
+/* main */
+.main {}
+
+/* cover */
+.cover {}
+
+/* заголовок */
+/* описание */
+.description {}
+
+/* параграф */
+/* кнопка */
+
+
+/* лоты */
+.lots {}
+
+/* заголовок */
+/* список карточек */
+/* ссылка */
+
+/* about */
+.about {}
+
+/* колонка 1 */
+/* колонка 2 */
+/* параграф */
+
+/* fuuter */
+.footer {}
+
+/* адрес */
+/* меню */
+/* соцсети */
