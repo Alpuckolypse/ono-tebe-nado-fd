@@ -13,7 +13,6 @@
   <body>
     <!-- header -->
     <header class="header">
-
       <!-- меню -->
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -28,53 +27,41 @@
           </li>
         </ul>
       </nav>
-
       <!-- лого -->
-      <a class="header__logo">
+      <a href="#" class="header__logo">
         <img class="header__logo-image" src="/images/logo-black.svg" alt="Логотип черный">
       </a>
       <!-- адрес -->
-      <div class="address">
         <address class="header__address">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
-      </div>
-
-      
     </header>
 
     <!-- начало main -->
     <main class="main">
-
       <!-- cover -->
       <section class="cover">
         <div class="overlay"></div>
-
         <!-- заголовок -->
         <h1 class="cover__title">
           <span class="aligned-text_left">он<span class="last-letter">о</span></span>
           <span class="aligned-text_center">теб<span class="last-letter">е</span></span>
           <span class="aligned-text_right">над<span class="last-letter">о</span></span>
         </h1>
-
         <!-- описание -->
-        <div class="description">
+        <div class="cover__description">
           <!-- параграф -->
-          <p class="subline">Аукцион вещей, в которые никто не верил</p>
-
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <!-- кнопка -->
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-
       <!-- lots -->
-      <lots class="lots">
-
+      <section class="lots">
         <!-- заголовок -->
         <h2 class="lots__heading">Лоты</h2>
-
         <!-- список карточек -->
         <ul class="lots__card-list">
           <!-- #1 -->
@@ -108,25 +95,21 @@
             </a>
           </li>
         </ul>
-
         <!-- ссылка -->
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
-
-      </lots>
-
+      </section>
       <!-- about -->
-      <about class="about">
-
-        <!-- для колонок 1-->
-        <div></div>
-
-        <!-- для колонок 2-->
-        <div>
+      <section class="about">
+        <!-- логотип белый-->
+        <div class="about__logo">
+          <img class="about__logo-image" src="/images/logo-white.svg" alt="Логотип белый">
+        </div> 
+        <!-- для колонок-->
+        <div class="about__column">
           <!-- заголовок -->
-          <h2>Об аукционе</h2>
-
+          <h2 class="about__title">Об аукционе</h2>
           <!-- группа параграф -->
-          <div>
+          <div class="about__text">
             <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
             <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
 на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
@@ -135,29 +118,45 @@
       </about>
     </main>
 
-
     <!-- начало footer -->
     <footer class="footer">
-
       <!-- адрес -->
-      <address class="">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
-      </address>
-
+        <address class="footer__address address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
       <!-- меню -->
-      <ul class="">
-        <li><a href="#">главная</a></li>
-        <li><a href="#">посмотреть лоты</a></li>
-        <li><a href="#">об аукционе</a></li>
-      </ul>
-
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link_active">главная</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
       <!-- соцсети -->
-      <ul class="">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img class="footer__social-link" src="/images/yt.svg" alt="youtube">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img class="footer__social-link" src="/images/vk.svg" alt="vk">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img class="footer__social-link" src="/images/pinterest.svg" alt="pinterest">
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
