@@ -1,4 +1,3 @@
-/* header */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -7,7 +6,6 @@
     line-height: 100%;
 }
 
-/* меню */
 .header__links-list {
     list-style: circle;
     display: flex;
@@ -28,13 +26,11 @@
     text-decoration: none;
 }
 
-/* лого */
 .header__logo-image {
     width: 148px;
     height: 105px;
 }
 
-/* адрес */
 .header__address {
     display: flex;
     justify-self: end;
@@ -46,8 +42,6 @@
     text-decoration-thickness: 1px;
 }
 
-/* main */
-/* cover */
 .cover {
     position: relative;
     background-image: url(/images/cover.jpg);
@@ -65,7 +59,6 @@
     z-index: 1;
 }
 
-/* заголовок */
 .cover__title {
     display: grid;
     gap: 17px 0px;
@@ -94,7 +87,6 @@
     z-index: 1;
 }
 
-/* описание */
 .cover__description {
     display: flex;
     align-items: center;
@@ -105,7 +97,6 @@
     z-index: 1;
 }
 
-/* параграф */
 .cover__description-text{
     text-transform: uppercase;
     color: white;
@@ -115,7 +106,6 @@
 
 }
 
-/* кнопка */
 .bet-button {
     background: transparent;
     color: white;
@@ -124,12 +114,10 @@
     text-transform: uppercase;
 }
 
-/* лоты */
 .lots {
     margin: 180px 24px 0px;
 }
 
-/* заголовок */
 .lots__heading {
     text-transform: uppercase;
     font-weight: 700;
@@ -138,7 +126,6 @@
     margin-bottom: 27px;
 }
 
-/* список карточек */
 .lots__card-list {
     display: flex;
     gap: 25px;
@@ -202,7 +189,6 @@
     background-image: url(/images/card-lot-03.jpg);
 }
 
-/* ссылка */
 .lots__look-more-link {
     display: block;
     margin: 30px 0px 0px 40px;
@@ -212,7 +198,6 @@
     text-decoration-thickness: 1px;
 }
 
-/* about */
 .about {
     display: grid;
     grid-template-columns: 334px 693px;
@@ -221,7 +206,6 @@
     margin: 120px 24px 180px;
 }
 
-/* лого белое */
 .about__logo {
     display: flex;
     background-color: black;
@@ -239,14 +223,12 @@
 }
 
 
-/* колонка  */
 .about__title {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
     margin: 100px 0px;
 }
-/* параграф */
 .about__text {
     display: flex;
     flex-direction: column;
@@ -255,7 +237,6 @@
     line-height: 24px;
 }
 
-/* footer */
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -263,7 +244,6 @@
     font-size: 18px;
 }
 
-/* адрес */
 .footer__address {
     display: flex;
     flex-direction: column;
@@ -274,7 +254,6 @@
     text-underline-offset: 4px;
 }
 
-/* меню */
 .footer__menu-list {
     display: flex;
     flex-direction: column;
@@ -292,7 +271,7 @@
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
 }
-/* соцсети */
+
 .footer__social-list {
     display: flex;
     gap: 48px;
